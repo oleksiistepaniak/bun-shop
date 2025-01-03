@@ -1,4 +1,4 @@
-import {expect, test, describe} from "bun:test"
+import {expect, test, describe} from "bun:test";
 import {server} from "../../index.ts";
 
 describe("root api test", () => {
@@ -8,5 +8,5 @@ describe("root api test", () => {
 
         expect(resp.status).toBe(200);
         expect(text).toBe("BUN IS WORKING!");
-    })
+    });
 });
